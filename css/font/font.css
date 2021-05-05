@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Pixel-Bold';
+  font-style: normal;
+  src: url(https://minionflo.net/css/font/Mojang-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pixel';
+  font-style: normal;
+  src: url(https://minionflo.net/css/font/Mojang-Regular.woff2) format('woff2');
+}

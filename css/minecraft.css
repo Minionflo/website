@@ -1,0 +1,60 @@
+#body {
+    background-color: #000000;
+}
+
+#ip-pos {
+    margin: 0;
+    margin-bottom: 1.5%;
+    padding-top: 01%;
+    margin-left: 10%;
+}
+
+#ip { 
+    color:#d500f9; 
+    font-family: "Pixel"; 
+    font-size:25px; 
+    text-decoration: none; 
+    background-color: #000000; 
+    padding: 7px 45px; 
+    border-radius: 12px; 
+    border: 2px solid #d500f9;
+    border-width: 1%;
+}
+
+#ip:hover, #ip:focus { 
+    color:#ffffff; 
+    font-family: "Pixel"; 
+    font-size:25px; 
+    text-decoration: underline; 
+    text-decoration-color:#ffffff; 
+    background-color: #d500f9; 
+    border-color: #ffffff;
+}
+
+#mc-status-pos {
+    margin: 0;
+    margin-bottom: 1.5%;
+    margin-left: 10%;
+}
+
+#mc-status {
+    color:#9b7653; 
+    font-family: "Pixel"; 
+    font-size:25px; 
+    text-decoration: none; 
+    background-color: #000000; 
+    padding: 7px 45px; 
+    border-radius: 12px; 
+    border: 2px solid #9b7653;
+    border-width: 1%;
+}
+
+#mc-status:hover, #mc-status:focus { 
+    color:#ffffff; 
+    font-family: "Pixel"; 
+    font-size:25px; 
+    text-decoration: underline; 
+    text-decoration-color:#ffffff; 
+    background-color: #9b7653; 
+    border-color: #ffffff;
+}

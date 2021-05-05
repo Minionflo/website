@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.time {
+    color:#d500f9;
+    font-family: Pixel;
+    font-size:280px;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.date {
+    color:#d500f9;
+    font-family: Pixel;
+    font-size:150px;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
