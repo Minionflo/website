@@ -54,19 +54,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div align=center>
         <ul class="ul">
             <li>
-                <p align=center class="ul-li" id="username" onclick="copy_username()">Username:
-                    <?php echo $_SESSION["username"]; ?></p>
+                <p align=center class="ul-li" id="username" onclick="copy_username()">Username: <?php echo $_SESSION["username"]; ?></p>
             </li>
             <li>
-                <p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail:
-                    <?php echo $_SESSION["email"]; ?></p>
+                <p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail:<?php echo $_SESSION["email"]; ?></p>
             </li>
             <li>
                 <p align=center class="ul-li" id="uid" onclick="copy_uid()">UID: <?php echo $_SESSION["id"]; ?></p>
             </li>
             <li>
-                <p align=center class="ul-li" id="username" onclick="document.getElementById('logout').submit()">Logout
-                </p>
+                <p align=center class="ul-li" id="username" onclick="document.getElementById('logout').submit()">Logout</p>
             </li>
         </ul>
     </div>
