@@ -88,50 +88,55 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     mysqli_close($link);
 }
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Social Media, HTML, CSS">
     <meta name="author" content="Minionflo">
     <meta name="">
-	<title>Minionflo.net</title>
-    <link rel="icon" href="/img/logo/128x128.png"/>
+    <title>Minionflo.net</title>
+    <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
     <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
     <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
     <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/login.css">
-    
+
 </head>
+
 <body>
     <ul class="navbar">
         <li><a class="navbar-li-a" href="/index.php">Home</a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
-        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a>
+        <li>
         <li><a class="navbar-li-a" href="/register.php">Register</a></li>
         <li><a class="navbar-li-a activ" href="/login.php">Login</a></li>
     </ul>
     <h1 align=center class="title">Login</h1>
     <div class="login-page">
         <div class="form">
-        <form class="login-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <input placeholder="Username" type="text" name="username" class="input" value="<?php echo $username; ?>">
-            </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <input placeholder="Password" type="password" name="password" class="input">
-            </div>
-            <div class="submit form-group">
-                <input type="submit" id="submit" value="Login" class="button">
-                <span class="message"><?php echo $username_err; ?></span>
-                <span class="message"><?php echo $password_err; ?></span>
-            </div>
-        </form>
+            <form class="login-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                    <input placeholder="Username" type="text" name="username" class="input"
+                        value="<?php echo $username; ?>">
+                </div>
+                <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                    <input placeholder="Password" type="password" name="password" class="input">
+                </div>
+                <div class="submit form-group">
+                    <input type="submit" id="submit" value="Login" class="button">
+                    <span class="message"><?php echo $username_err; ?></span>
+                    <span class="message"><?php echo $password_err; ?></span>
+                </div>
+            </form>
         </div>
-    </div>    
+    </div>
 </body>
+
 </html>
