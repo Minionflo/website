@@ -57,7 +57,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <p align=center class="ul-li" id="username" onclick="copy_username()">Username: <?php echo $_SESSION["username"]; ?></p>
             </li>
             <li>
-                <p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail:<?php echo $_SESSION["email"]; ?></p>
+                <p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail: <?php echo $_SESSION["email"]; ?></p>
             </li>
             <li>
                 <p align=center class="ul-li" id="uid" onclick="copy_uid()">UID: <?php echo $_SESSION["id"]; ?></p>
