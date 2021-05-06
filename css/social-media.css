@@ -14,7 +14,6 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
     border: 2px solid #ff0000;
     border-width: 1%;
 }
@@ -45,7 +44,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #1DA1F2;
     border-width: 1%;
     margin: 0;
@@ -79,7 +78,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #DE4082;
     border-width: 1%;
     margin: 0;
@@ -114,7 +113,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #7389DC;
     border-width: 1%;
     margin: 0;
@@ -148,7 +147,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #7389dc;
     border-width: 1%;
     margin: 0;
@@ -182,7 +181,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #9147ff;
     border-width: 1%;
     margin: 0;
@@ -216,7 +215,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #ff4500;
     border-width: 1%;
     margin: 0;
@@ -250,7 +249,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #00f3eb;
     border-width: 1%;
     margin: 0;
@@ -284,7 +283,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #061e52;
     border-width: 1%;
     margin: 0;
@@ -318,7 +317,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #ffffff;
     border-width: 1%;
     margin: 0;
@@ -352,7 +351,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #4267b2;
     border-width: 1%;
     margin: 0;
@@ -386,7 +385,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #fe4485;
     border-width: 1%;
     margin: 0;
@@ -420,7 +419,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #ffffff;
     border-width: 1%;
     margin: 0;
@@ -454,7 +453,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #fffc01;
     border-width: 1%;
     margin: 0;
@@ -488,7 +487,7 @@ body {
     text-decoration: none; 
     background-color: #000000; 
     padding: 7px 45px; 
-    border-radius: 12px; 
+    
     border: 2px solid #1ed760;
     border-width: 1%;
     margin: 0;

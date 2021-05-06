@@ -2,12 +2,12 @@
 session_start();
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     $_login = "Logged in";
-    $_logbutton = '<a href="/logout.php">Logout</a>';
-    $_register = '';
+    $_navbar_log = '';
+    $_navbar_register = '<a class="navbar-li-a activ" href="/profile.php">Profil</a>';
 } else {
     $_login = "Not Logged in";
-    $_logbutton = '<a href="/login.php">Login</a>';
-    $_register = '<a href="/register.php">Register</a>';
+    $_navbar_log = '<a class="navbar-li-a" href="/login.php">Login</a>';
+    $_navbar_register = '<a class="navbar-li-a" href="/register.php">Register</a>';
 }
 ?>
 
@@ -18,7 +18,6 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Social Media, HTML, CSS">
         <meta name="author" content="Minionflo">
-        <meta name="">
 	    <title>Minionflo.net</title>
         <link rel="icon" href="/img/logo/128x128.png"/>
         <link rel="manifest" href="/json/manifest.json">
@@ -30,13 +29,15 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <!-- Link --> 
     </head>
     <body id="body">
-        <ul>
-			<li><a href="/index.php">Home</a></li>
-			<li><a class="activ" href="/social-media.php">Social Media</a></li>
-			<li><a href="/minecraft.php">Minecraft</a><li>
-			<li><?php echo $_register; ?></li>
-        	<li><?php echo $_logbutton; ?></li>
-		</ul>
+	<ul class="navbar">
+        <li><a class="navbar-li-a" href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
+        <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
+        <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><?php echo $_navbar_register; ?></li>
+        <li><?php echo $_navbar_log; ?></li>
+    </ul>
 		<h1 align=center class="title">Social Media</h1>
 		<p align=center id="discord-pos"><a id="discord" href="http://discord.minionflo.net" target="_blank">Discord</a></p>
 		<p align=center id="youtube-pos"><a id="youtube" href="http://youtube.minionflo.net" target="_blank">Youtube</a></p>

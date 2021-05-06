@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         // Prepare an insert statement
         $sql = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
-         
+        
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "sss", $param_username, $param_email, $param_password);
@@ -151,12 +151,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
 </head>
 <body>
-    <ul>
-        <li><a href="/index.php">Home</a></li>
-        <li><a href="/social-media.php">Social Media</a></li>
-        <li><a href="/minecraft.php">Minecraft</a><li>
-        <li><a class="activ" href="/register.php">Register</a></li>
-        <li><a href="/login.php">Login</a></li>
+    <ul class="navbar">
+        <li><a class="navbar-li-a"href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
+        <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
+        <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><a class="navbar-li-a activ" href="/register.php">Register</a></li>
+        <li><a class="navbar-li-a" href="/login.php">Login</a></li>
     </ul>
     <h1 align=center class="title">Register</h1>
     <div class="register-page">

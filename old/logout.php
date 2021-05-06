@@ -1,14 +1,13 @@
 <?php
 session_start();
-
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     $_login = "Logged in";
-    $_logbutton = '<a class="activ" href="/logout.php">Logout</a>';
-    $_register = '';
+    $_navbar_log = '';
+    $_navbar_register = '<a class="navbar-li-a activ" href="/profile.php">Profil</a>';
 } else {
     $_login = "Not Logged in";
-    $_logbutton = '<a href="/login.php">Login</a>';
-    $_register = '<a href="/register.php">Register</a>';
+    $_navbar_log = '<a class="navbar-li-a" href="/login.php">Login</a>';
+    $_navbar_register = '<a class="navbar-li-a" href="/register.php">Register</a>';
 }
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -35,12 +34,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
 </head>
 <body>
-    <ul>
-        <li><a href="/index.php">Home</a></li>
-        <li><a href="/social-media.php">Social Media</a></li>
-        <li><a href="/minecraft.php">Minecraft</a><li>
-        <li><?php echo $_register; ?></li>
-        <li><?php echo $_logbutton; ?></li>
+    <ul class="navbar">
+        <li><a class="navbar-li-a"href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
+        <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
+        <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><a class="navbar-li-a activ" href="/logout.php">Logout</a></li>
+        <li><a class="navbar-li-a" href="/profile.php">Profil</a></li>
     </ul>
     <h1 align=center class="title">Logout</h1>
     <div class="login-page">

@@ -4,9 +4,9 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 
-ErrorDocument 400 /err/400.html
-ErrorDocument 401 /err/401.html
-ErrorDocument 403 /err/403.html
-ErrorDocument 404 /err/404.html
-ErrorDocument 405 /err/405.html
-ErrorDocument 500 /err/500.html
+ErrorDocument 400 /err/400.php
+ErrorDocument 401 /err/401.php
+ErrorDocument 403 /err/403.php
+ErrorDocument 404 /err/404.php
+ErrorDocument 405 /err/405.php
+ErrorDocument 500 /err/500.php

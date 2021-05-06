@@ -61,7 +61,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             // Store data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
-                            $_SESSION["username"] = $username;                            
+                            $_SESSION["username"] = $username;
+                            $_SESSION["email"] = $email;                           
                             
                             // Redirect user to welcome page
                             header("location: index.php?login=true");
@@ -105,12 +106,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
 </head>
 <body>
-    <ul>
-        <li><a href="/index.php">Home</a></li>
-        <li><a href="/social-media.php">Social Media</a></li>
-        <li><a href="/minecraft.php">Minecraft</a><li>
-        <li><a href="/register.php">Register</a></li>
-        <li><a class="activ" href="/login.php">Login</a></li>
+    <ul class="navbar">
+        <li><a class="navbar-li-a"href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
+        <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
+        <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><a class="navbar-li-a"href="/register.php">Register</a></li>
+        <li><a class="navbar-li-a activ" href="/login.php">Login</a></li>
     </ul>
     <h1 align=center class="title">Login</h1>
     <div class="login-page">

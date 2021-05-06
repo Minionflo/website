@@ -3,50 +3,36 @@ body {
     margin: 0;
 }
 
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 10%;
-    background-color: #161616;
+    background-color: #000;
     position: fixed;
     height: 100%;
-    border: 0px solid;
-    border-radius: 12px;
     font-size: 20px;
 }
 
-li a {
+.navbar-li-a {
     display: block;
-    color: white;
+    color: #d500f9;
     font-family: "Pixel";
     font-size: 20px;
     padding: 10px 0px 10px 15px;
     text-decoration: none;
+    border: 2px solid #161616;
+    border-width: 1%;
+    margin-bottom: 3%;
 }
 
-li a.activ {
-    background-color: #4a4a4a;
-    border: 0px solid;
-    border-radius: 12px;
+.activ {
+    border-color: #fff;
 }
 
-.bot1 {
-    position: fixed;
-    width: 9.4%;
-    bottom: 0;
-}
-
-.bot2 {
-    position: fixed;
-    width: 100%;
-    bottom: 100px;
-}
-
-li a:hover {
-    background-color: #404040;
-    border: 0px solid;
-    border-radius: 12px;
+.navbar-li-a:hover {
+    
+    border-color: #d500f9;
 }
 
 .dis {
@@ -56,16 +42,6 @@ li a:hover {
     height: 90%;
 }
 
-#img {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    margin-left: 0%;
-    padding: 0;
-    transform:translate(-50%,0%)
-}
-
 .title {
     color:#d500f9;
     font-family: Pixel-Bold;
@@ -73,4 +49,16 @@ li a:hover {
     margin: 0;
     margin-left: 10%;
     padding-top: 1%;
+}
+
+.content {
+    margin-left: 10%;
+    font-family: Pixel;
+    color: #d500f9;
+}
+
+.topic {
+    margin-left: 10%;
+    font-family: Pixel;
+    color: #d500f9;
 }
