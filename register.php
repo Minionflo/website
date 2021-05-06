@@ -152,7 +152,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 <body>
     <ul class="navbar">
-        <li><a class="navbar-li-a"href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a" href="/index.php">Home</a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>

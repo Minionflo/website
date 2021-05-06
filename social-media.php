@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     $_login = "Logged in";
     $_navbar_log = '';
-    $_navbar_register = '<a class="navbar-li-a activ" href="/profile.php">Profil</a>';
+    $_navbar_register = '<a class="navbar-li-a" href="/profile.php">Profil</a>';
 } else {
     $_login = "Not Logged in";
     $_navbar_log = '<a class="navbar-li-a" href="/login.php">Login</a>';
@@ -31,7 +31,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <body id="body">
 	<ul class="navbar">
         <li><a class="navbar-li-a" href="/index.php">Home</a></li>
-        <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
+        <li><a class="navbar-li-a activ" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>

@@ -2,14 +2,12 @@
 session_start();
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     $_login = "Logged in";
-    $_navbar_log = '<a class="navbar-li-a" href="/logout.php">Logout</a>';
-    $_navbar_register = '';
-    $_navbar_profile = '<a class="navbar-li-a" href="/profile.php">Profil</a>';
+    $_navbar_log = '';
+    $_navbar_register = '<a class="navbar-li-a" href="/profile.php">Profil</a>';
 } else {
     $_login = "Not Logged in";
     $_navbar_log = '<a class="navbar-li-a" href="/login.php">Login</a>';
     $_navbar_register = '<a class="navbar-li-a" href="/register.php">Register</a>';
-    $_navbar_profile = '';
 }
 ?>
 
@@ -32,14 +30,13 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     </head>
     <body style="background-color: #000">
     <ul class="navbar">
-        <li><a class="navbar-li-a" href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a activ" href="/index.php">Home</a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
         <li><?php echo $_navbar_register; ?></li>
         <li><?php echo $_navbar_log; ?></li>
-        <li><?php echo $_navbar_profile; ?></li>
     </ul>
         <h1 class="err" align=center>500 Internal Server Error</h1>
         <hr>
