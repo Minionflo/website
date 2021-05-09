@@ -36,8 +36,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><a class="navbar-li-a activ" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
-        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a>
-        <li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
         <li><?php echo $_navbar_register; ?></li>
         <li><?php echo $_navbar_log; ?></li>
     </ul>

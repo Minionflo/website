@@ -158,8 +158,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
-        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a>
-        <li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
         <li><a class="navbar-li-a activ" href="/register.php">Register</a></li>
         <li><a class="navbar-li-a" href="/login.php">Login</a></li>
     </ul>
