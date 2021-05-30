@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://minionflo.net/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://minionflo.net/index.php</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://minionflo.net/social-media.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/programming.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/gaming.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/minecraft.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/register.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/login.php</loc>
+    </url>
+    <url>
+        <loc>https://minionflo.net/profile.php</loc>
+    </url>
+</urlset>
