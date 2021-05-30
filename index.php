@@ -19,8 +19,8 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Social Media, HTML, CSS">
     <meta name="author" content="Minionflo">
-    <meta name="">
-    <title>Minionflo.net</title>
+    <meta name="description" content="Minionflo.net">
+    <title>Home - Minionflo.net</title>
     <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
 
@@ -43,7 +43,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><?php echo $_navbar_log; ?></li>
     </ul>
     <h1 align=center class="title">Minionflo.net</h1>
-    <h2 class="content" align=center>Hello, i am Minionflo. I like gaming and programming.</h2>
+    <h2 class="content" align=center>Hello, I am Minionflo. I like gaming and programming.</h2>
     <!-- <h1 id="login" align=center ><?php echo $_SESSION["username"]; ?></h1> -->
     <!-- <h1 id="login" align=center ><?php echo $_SESSION["loggedin"]; ?></h1> -->
     <script src="js/query.js"></script>
