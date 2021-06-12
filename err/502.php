@@ -23,9 +23,9 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <link rel="icon" href="/img/logo/128x128.png"/>
         <link rel="manifest" href="/json/manifest.json">
         <!-- Link -->
+        <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
         <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
         <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/error.css">
-        <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
         <!-- Link -->
     </head>
     <body style="background-color: #000">
