@@ -39,7 +39,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><?php echo $_navbar_log; ?></li>
     </ul>
         <h1 class="err" align=center>500 Internal Server Error</h1>
-        <hr>
+        <br>
         <p class="add" align=center>Minionflo/X (Linux) Server at Minionflo.net Port 443</p>
     </body>
 </html>
