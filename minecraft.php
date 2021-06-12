@@ -25,10 +25,10 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <link rel="manifest" href="/json/manifest.json">
 
     <!-- Link -->
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/minecraft.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/notifications.css" 
+    <link rel="stylesheet" type="text/css" href="/css/font/font.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/minecraft.css">
+    <link rel="stylesheet" type="text/css" href="/css/notifications.css" 
     <!-- Link -->
 </head>
 
@@ -46,9 +46,9 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <h1 align=center onclick="copyip()" id="ip-pos"><a id="ip">IP: Minionflo.net</a></h1>
     <h1 align=center id="mc-status-pos"><a id="mc-status">Status: <span data-playercounter-ip="minionflo.net"
                 data-playercounter-status="">Offline</span></a></h1>
-    <script src="https://minionflo.net/js/notification.js"></script>
-    <script src="https://minionflo.net/js/minecraft-status.js"></script>
-    <script src="https://minionflo.net/js/minecraft.js"></script>
+    <script src="/js/notification.js"></script>
+    <script src="/js/minecraft-status.js"></script>
+    <script src="/js/minecraft.js"></script>
 </body>
 
 </html

@@ -25,10 +25,10 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <link rel="manifest" href="/json/manifest.json">
 
     <!-- Link -->
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/index.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/notifications.css">
+    <link rel="stylesheet" type="text/css" href="/css/font/font.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/css/notifications.css">
     <!-- Link -->
 </head>
 

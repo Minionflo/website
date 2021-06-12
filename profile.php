@@ -33,10 +33,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="manifest" href="/json/manifest.json">
 
     <!-- Link -->
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/profile.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/notifications.css">
+    <link rel="stylesheet" type="text/css" href="/css/font/font.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/profile.css">
+    <link rel="stylesheet" type="text/css" href="/css/notifications.css">
     <!-- Link -->
 </head>
 

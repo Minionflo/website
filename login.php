@@ -101,9 +101,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login - Minionflo.net</title>
     <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/font/font.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://Minionflo.net/css/login.css">
+    <link rel="stylesheet" type="text/css" href="/css/font/font.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
 
 </head>
 
