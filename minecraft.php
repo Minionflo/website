@@ -44,8 +44,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     </ul>
     <h1 align=center class="title">Minecraft</h1>
     <h1 align=center onclick="copyip()" id="ip-pos"><a id="ip">IP: Minionflo.net</a></h1>
-    <h1 align=center id="mc-status-pos"><a id="mc-status">Status: <span data-playercounter-ip="minionflo.net"
-                data-playercounter-status="">Offline</span></a></h1>
+    <h1 align=center id="mc-status-pos"><a id="mc-status">Status: <span data-playercounter-ip="minionflo.net" data-playercounter-status="">Offline</span></a></h1>
     <script src="/js/notification.js"></script>
     <script src="/js/minecraft-status.js"></script>
     <script src="/js/minecraft.js"></script>
