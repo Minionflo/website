@@ -2,45 +2,27 @@
     background-color: #000000;
 }
 
-#ip-pos {
-    margin: 0;
-    margin-bottom: 1.5%;
-    padding-top: 01%;
+.ul {
+    list-style: none;
+    width: 30%;
+    margin: 0 auto;
     margin-left: 10%;
+    display:inline-block
 }
 
-#ip { 
+.ul-li-a:hover {
+    border-color: #d500f9;
+}
+
+.ul-li-a {
     color:#d500f9; 
-    font-family: "Pixel"; 
+    font-family: Pixel; 
     font-size:25px; 
-    text-decoration: none; 
+    text-decoration: none;
     background-color: #000000; 
     padding: 7px 45px; 
     border: 2px solid #161616;
-    border-width: 1%;
-}
-
-#ip:hover, #ip:focus { 
-    color:#d500f9; 
-    font-family: "Pixel"; 
-    font-size:25px;  
-    text-decoration-color:#d500f9; 
-    border-color: #d500f9;
     cursor: pointer;
-}
-
-#mc-status-pos {
-    margin: 0;
-    margin-bottom: 1.5%;
-    margin-left: 10%;
-}
-
-#mc-status {
-    color:#d500f9; 
-    font-family: "Pixel"; 
-    font-size:25px; 
-    text-decoration: none; 
-    background-color: #000000; 
-    padding: 7px 45px;  
-    border: 2px solid #161616;
+    display: block;
+    margin-top: 1.5%;
 }
