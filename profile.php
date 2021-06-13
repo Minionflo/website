@@ -11,7 +11,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: index.php");
 }
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+if($_SERVER["REQUEST_METHOD"] == "POST" && $_GET['logout'] == "true"){
     $_SESSION = array();
     session_destroy();
     header("location: index.php?logout=true");
@@ -53,23 +53,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <h1 align=center class="title">Profile</h1>
     <div align=center>
         <ul class="ul">
-            <li>
-                <p align=center class="ul-li" id="username" onclick="copy_username()">Username: <?php echo $_SESSION["username"]; ?></p>
-            </li>
-            <li>
-                <p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail: <?php echo $_SESSION["email"]; ?></p>
-            </li>
-            <li>
-                <p align=center class="ul-li" id="uid" onclick="copy_uid()">UID: <?php echo $_SESSION["id"]; ?></p>
-            </li>
-            <li>
-                <p align=center class="ul-li" id="username" onclick="document.getElementById('logout').submit()">Logout</p>
-            </li>
+            <li><p align=center class="ul-li" id="username" onclick="copy_username()">Username: <?php echo $_SESSION["username"]; ?></p></li>
+            <li><p align=center class="ul-li" id="email" onclick="copy_email()">E-Mail: <?php echo $_SESSION["email"]; ?></p></li>
+            <li><p align=center class="ul-li" id="uid" onclick="copy_uid()">UID: <?php echo $_SESSION["id"]; ?></p></li>
+            <li><p align=center class="ul-li" id="username" onclick="document.getElementById('logout').submit()">Logout</p></li>
         </ul>
     </div>
     <script src="js/notification.js"></script>
     <script src="js/profile.js"></script>
-    <form id="logout" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"></form>
+    <form id="logout" action="/profile.php?logout=true" method="post"></form>
 </body>
 
 </html
