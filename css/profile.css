@@ -17,6 +17,7 @@
     border: 2px solid #161616;
     border-width: 1%;
     cursor: pointer;
+    display: block;
 }
 
 .ul-li:hover {
