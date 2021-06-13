@@ -44,8 +44,6 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     </ul>
     <h1 align=center class="title">Minionflo.net</h1>
     <h2 class="content" align=center>Hello, I am Minionflo. I like gaming and programming.</h2>
-    <!-- <h1 id="login" align=center ><?php echo $_SESSION["username"]; ?></h1> -->
-    <!-- <h1 id="login" align=center ><?php echo $_SESSION["loggedin"]; ?></h1> -->
     <script src="js/query.js"></script>
     <script src="js/notification.js"></script>
     <script src="js/index.js"></script>
