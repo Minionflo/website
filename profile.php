@@ -41,12 +41,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_GET['logout'] == "true"){
 </head>
 
 <body>
-    <ul class="navbar">
+<ul class="navbar">
         <li><a class="navbar-li-a" href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a navbar-topic" > - Me - </a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
+        <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
+        <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><?php echo $_navbar_register; ?></li>
         <li><?php echo $_navbar_log; ?></li>
     </ul>

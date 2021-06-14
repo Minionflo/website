@@ -12,7 +12,6 @@ body {
     position: fixed;
     height: 100%;
     font-size: 20px;
-    border-right: 2px solid #161616;
 }
 
 .navbar-li-a {
@@ -26,7 +25,9 @@ body {
     border-width: 1%;
     margin-bottom: 3%;
 }
-
+.navbar-topic {
+    text-align: center;
+}
 .activ {
     border-color: #fff;
 }
