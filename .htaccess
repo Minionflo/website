@@ -15,3 +15,5 @@ ErrorDocument 500 /err/500.php
   Header set Access-Control-Allow-Origin "*"
   Header set Ping "%D"
 </IfModule>
+
+php_value memory_limit 5G
