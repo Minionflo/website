@@ -67,4 +67,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_GET['logout'] == "true"){
     <form id="logout" action="/profile.php?logout=true" method="post"></form>
 </body>
 
-</html
+</html>

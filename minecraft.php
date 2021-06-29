@@ -28,7 +28,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <link rel="stylesheet" type="text/css" href="/css/font/font.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/minecraft.css">
-    <link rel="stylesheet" type="text/css" href="/css/notifications.css" 
+    <link rel="stylesheet" type="text/css" href="/css/notifications.css">
     <!-- Link -->
 </head>
 
@@ -57,4 +57,4 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <script src="/js/minecraft.js"></script>
 </body>
 
-</html
+</html>

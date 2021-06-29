@@ -52,4 +52,4 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <script src="js/index.js"></script>
 </body>
 
-</html
+</html>

@@ -48,4 +48,4 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <p class="content" align=center>I mainly play Minecraft. Sometimes I play GTA 5 too</p>
 </body>
 
-</html
+</html>
