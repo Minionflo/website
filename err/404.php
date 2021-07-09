@@ -18,7 +18,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Social Media, HTML, CSS">
         <meta name="author" content="Minionflo">
-        <meta name="">
+        <meta name="robots" content="noindex">
 	    <title>Minionflo.net</title>
         <link rel="icon" href="/img/logo/128x128.png"/>
         <link rel="manifest" href="/json/manifest.json">
@@ -31,10 +31,13 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <body style="background-color: #000">
     <ul class="navbar">
         <li><a class="navbar-li-a" href="/index.php">Home</a></li>
+        <li><a class="navbar-li-a navbar-topic" > - Me - </a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
-        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a><li>
+        <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
+        <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
+        <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><?php echo $_navbar_register; ?></li>
         <li><?php echo $_navbar_log; ?></li>
     </ul>
