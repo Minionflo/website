@@ -19,7 +19,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Social Media, HTML, CSS">
     <meta name="author" content="Minionflo">
-    <meta name="description" content="Minionflo.net">
+    <meta name="description" content="This is the Website for Minionflo and Minionflo.net">
     <title>Home - Minionflo.net</title>
     <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
