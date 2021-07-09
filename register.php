@@ -142,7 +142,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Social Media, HTML, CSS">
     <meta name="author" content="Minionflo">
-    <meta name="description" content="Minionflo.net">
+    <meta name="robots" content="noindex">
     <title>Register - Minionflo.net</title>
     <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
