@@ -1,9 +1,3 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-</IfModule>
-
 ErrorDocument 400 /err/400.php
 ErrorDocument 401 /err/401.php
 ErrorDocument 403 /err/403.php
