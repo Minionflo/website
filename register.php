@@ -85,8 +85,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate password
     if(empty(trim($_POST["password"]))){
         $password_err = "Please enter a password.";     
-    } elseif(strlen(trim($_POST["password"])) < 6){
-        $password_err = "Password must have atleast 6 characters.";
+    } elseif(strlen(trim($_POST["password"])) < 8){
+        $password_err = "Password must have atleast 8 characters.";
+    } elseif(strlen(trim($_POST["password"])) > 512){
+        $password_err = "The Max Password Lenght is 512";
     } else{
         $password = trim($_POST["password"]);
     }
