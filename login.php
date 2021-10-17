@@ -115,6 +115,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
+        <li><a class="navbar-li-a" href="/status.php">Status</a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><a class="navbar-li-a" href="/register.php">Register</a></li>

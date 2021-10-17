@@ -39,6 +39,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
+        <li><a class="navbar-li-a" href="/status.php">Status</a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><?php echo $_navbar_register; ?></li>
@@ -48,6 +49,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <div align=center>
         <ul class="ul">
             <li><a class="ul-li-a" href="http://discord.minionflo.net" target="_blank">Discord</a></li>
+            <li><a class="ul-li-a" href="http://github.minionflo.net" target="_blank">Github</a></li>
             <li><a class="ul-li-a" href="http://youtube.minionflo.net" target="_blank">Youtube</a></li>
             <li><a class="ul-li-a" href="http://reddit.minionflo.net" target="_blank">Reddit</a></li>
             <li><a class="ul-li-a" href="http://spotify.minionflo.net" target="_blank">Spotify</a></li>
@@ -56,7 +58,6 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             <li><a class="ul-li-a" href="http://twitch.minionflo.net" target="_blank">Twitch</a></li>
             <li><a class="ul-li-a" href="http://tiktok.minionflo.net" target="_blank">Tiktok</a></li>
             <li><a class="ul-li-a" href="http://steam.minionflo.net" target="_blank">Steam</a></li>
-            <li><a class="ul-li-a" href="http://github.minionflo.net" target="_blank">Github</a></li>
             <li><a class="ul-li-a" href="http://facebook.minionflo.net" target="_blank">Facebook</a></li>
             <li><a class="ul-li-a" href="http://tellonym.minionflo.net" target="_blank">Tellonym</a></li>
             <li><a class="ul-li-a" href="http://snapchat.minionflo.net" target="_blank">Snapchat</a></li>

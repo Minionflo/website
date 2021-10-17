@@ -40,6 +40,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
+        <li><a class="navbar-li-a" href="/status.php">Status</a></li>
         <li><a class="navbar-li-a activ" href="/minecraft.php">Minecraft</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><?php echo $_navbar_register; ?></li>
@@ -49,7 +50,6 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <div align=center>
         <ul class="ul">
             <li><a class="ul-li-a" onclick="copyip()">IP: Minionflo.net</a></li>
-            <li><a class="ul-li-a" >Status: <span data-playercounter-ip="minionflo.net" data-playercounter-status="">Offline</span></a></li>
         </ul>
     </div>
     <script src="/js/notification.js"></script>

@@ -20,14 +20,15 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <meta name="keywords" content="Social Media, HTML, CSS">
     <meta name="author" content="Minionflo">
     <meta name="robots" content="noindex">
-    <title>Programming - Minionflo.net</title>
+    <title>Minecraft - Minionflo.net</title>
     <link rel="icon" href="/img/logo/128x128.png" />
     <link rel="manifest" href="/json/manifest.json">
 
     <!-- Link -->
     <link rel="stylesheet" type="text/css" href="/css/font/font.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/programming.css">
+    <link rel="stylesheet" type="text/css" href="/css/status.css">
+    <link rel="stylesheet" type="text/css" href="/css/notifications.css">
     <!-- Link -->
 </head>
 
@@ -36,20 +37,18 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
         <li><a class="navbar-li-a" href="/index.php">Home</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Me - </a></li>
         <li><a class="navbar-li-a" href="/social-media.php">Social Media</a></li>
-        <li><a class="navbar-li-a activ" href="/programming.php">Programming</a></li>
+        <li><a class="navbar-li-a" href="/programming.php">Programming</a></li>
         <li><a class="navbar-li-a" href="/gaming.php">Gaming</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Server - </a></li>
-        <li><a class="navbar-li-a" href="/status.php">Status</a></li>
+        <li><a class="navbar-li-a activ" href="/status.php">Status</a></li>
         <li><a class="navbar-li-a" href="/minecraft.php">Minecraft</a></li>
         <li><a class="navbar-li-a navbar-topic" > - Account - </a></li>
         <li><?php echo $_navbar_register; ?></li>
         <li><?php echo $_navbar_log; ?></li>
     </ul>
-    <h1 align=center class="title">Programming</h1>
-    <p class="content" align=center>
-        I mainly program in Javascript and Go. Sometimes I program in Java, PHP, CSS and HTML too.
-        <br> You can find all my projects on my github.
-    </p>
+    <iframe id="status" onload="iframe_height()" src="https://status.minionflo.net"></iframe>
+    <script src="/js/notification.js"></script>
+    <script src="/js/status.js"></script>
 </body>
 
 </html>
