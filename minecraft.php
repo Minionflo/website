@@ -50,6 +50,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     <div align=center>
         <ul class="ul">
             <li><a class="ul-li-a" onclick="copyip()">IP: Minionflo.net</a></li>
+            <li><a class="ul-li-a" href="https://files.minionflo.net/minecraft/rp/minionflo.zip">Resourcepack</a></li>
         </ul>
     </div>
     <script src="/js/notification.js"></script>
