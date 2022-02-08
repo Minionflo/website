@@ -2,3 +2,5 @@
 /auth.php
 /php/config.php
 /.msmtp.log
+node_modules
+package-lock.json
