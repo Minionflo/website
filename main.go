@@ -14,6 +14,8 @@ type PageVariables struct {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 
+	w.Header().Set("Access-Control-Allow-Origin", "*.minionflo.net")
+
 	now := time.Now()              // find the time right now
 	HomePageVars := PageVariables{ //store the date and time in a struct
 		Date: now.Format("02-01-2006"),
